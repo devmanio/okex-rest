@@ -1,0 +1,32 @@
+{
+  "name": "okex-rest",
+  "version": "0.0.1",
+  "description": "Nodejs API wrapper for OKEX exchange",
+  "main": "rest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmanio/okex-rest.git"
+  },
+  "dependencies": {
+    "request": "~2.67.0",
+    "underscore": "~1.8.3",
+    "crypto": "~0.0.3",
+    "verror": "~1.6.0",
+    "md5": "2.x"
+  },
+  "keywords": [
+    "okex",
+    "api",
+    "exchange",
+    "bitcoin"
+  ],
+  "author": "Ivan Kocheshev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devmanio/okex-rest/issues"
+  },
+  "homepage": "https://github.com/devmanio/okex-rest#readme"
+}
