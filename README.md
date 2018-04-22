@@ -28,7 +28,7 @@ publicClient.getDepth(console.log, 'iota_btc');
 publicClient.getTrades(console.log);
 
 // replace the parameters with your API key and secret
-var privateClient = new OKCoin('your-api-key', 'your-api-secret');
+var privateClient = new OKEX('your-api-key', 'your-api-secret');
 
 privateClient.getUserInfo(console.log);
 
